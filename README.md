@@ -3,7 +3,7 @@
 ## 🌩️ **ThunderNews (TDL News)**  
 
 **ThunderNews** is a React-based web application designed with a sleek and modern aesthetic, featuring a black background to enhance readability and provide a comfortable user experience. 🌑  
-##Adress: [git push -u origin main](http://tdlnews.free.nf) 
+##Adress: [tdlnews.free.nf](http://tdlnews.free.nf) 
 ### ⚡ Features:  
 - **📰 Dynamic News Cards**: News articles are beautifully displayed as cards, offering key information at a glance.  
 - **🔍 Detailed News Pages**: Clicking on a card takes you to a dedicated detail page. Note that due to NewsDataIO API restrictions, the full news content is replaced with placeholder text (*Lorem Ipsum*).  
