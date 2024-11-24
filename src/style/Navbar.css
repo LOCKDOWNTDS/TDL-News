@@ -1,0 +1,86 @@
+.navbar {
+    background-color: #181a1b !important; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    padding: 10px 20px;
+  }
+  
+  .navbar-brand {
+    font-family: 'Georgia', serif;
+    font-size: 2rem;
+    color: #ffffff !important; 
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  .nav-link {
+    font-family: 'Georgia', serif;
+    font-size: 1rem;
+    color: #ffffff !important; 
+    margin-right: 20px;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .nav-link:hover {
+    color: #f1c40f !important; 
+    text-decoration: underline;
+  }
+  
+  .navbar-form .form-control {
+    background-color: #2c2f33;
+    border: 1px solid #444;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 5px 10px;
+  }
+  
+  .navbar-form .form-control::placeholder {
+    color: #ccc;
+  }
+ 
+
+
+.form-control:focus {
+  border-color: #ffd700 !important; 
+  box-shadow: 0 0 5px rgba(255, 215, 0, 0.8) !important; 
+}
+
+
+  .navbar-form .btn {
+    background-color: #f1c40f;
+    color: #181a1b;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .navbar-form .btn:hover {
+    background-color: #ffd700; 
+    transform: scale(1.1); 
+  }
+  
+  @media (max-width: 768px) {
+    .navbar {
+      padding: 15px 10px;
+    }
+  
+    .navbar-brand {
+      font-size: 1.5rem;
+    }
+  
+    .nav-link {
+      font-size: 0.9rem;
+      margin-right: 10px;
+    }
+  
+    .navbar-form .form-control {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  
+    .navbar-form .btn {
+      width: 100%;
+    }
+  }
+  

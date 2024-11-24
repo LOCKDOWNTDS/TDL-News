@@ -1,0 +1,52 @@
+
+.card {
+    margin: 5%;
+    float: left;
+    background-color: #181a1b;
+    border: none; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.3s, box-shadow 0.3s; 
+    float:left;
+  }
+  
+  .card:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); 
+  }
+  
+  
+  .card img {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    max-height: 200px;
+    object-fit: fit; 
+  }
+  
+  .card-title {
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 15px;
+  }
+  
+  .card-text {
+    font-family: 'Georgia', serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #bdb7af;
+    margin-bottom: 0;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .card {
+      width: 100%;
+      margin: 20px auto;
+      float: none;
+    }
+  
+    .card img {
+      max-height: 150px;
+    }
+  }
+  

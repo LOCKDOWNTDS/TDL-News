@@ -1,0 +1,51 @@
+.detail-image {
+    max-width: 100%;
+    max-height: 350px;
+    object-fit:fill;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+  }
+  .modifiedRow{
+    margin-top: 2px;
+    padding: 0px;
+  }
+  .overlay-text {
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%, -10%);
+    color: white;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5); 
+    padding: 20px;
+    border-radius: 8px;
+    width: 80%; 
+  }
+  
+  
+  .overlay-text h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .overlay-text p {
+    font-size: 16px;
+  }
+  .MidLeft{
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: 4%;
+    color: white;
+   
+  }
+  .MidRight{
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: 1%;
+    color: white;
+   
+  }
+  .no-wrap {
+    white-space: nowrap;
+  }
